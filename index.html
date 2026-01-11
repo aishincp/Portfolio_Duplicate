@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>XYZ | Portfolio</title>
+ 
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">Portfolio Name</div>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-content">
+            <div class="about-text">
+                          <div class="about-image" style=" ">
+                <img src="covers/profile_D.png" alt="Professional headshot" />
+            </div>
+                <h2>Hi, I'm XYZ</h2>
+                <p>Introduction: Professional Summary</p>
+                <p>provide a brief yet compelling summary of who you are, what you do, your key achievements, and your professional goals.</p>
+       <div class="social-links">
+    <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Logo" />
+    </a>
+    <a href="https://www.linkedin.com/in" target="_blank" rel="noopener noreferrer">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn Logo" />
+    </a>
+  </div>
+            </div>
+            <!--PORTFOLIO IMAGE TBU-->
+  
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills & Expertise</h2>
+        <div class="skills-content">
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon"  style="background-image: url('images/Python.png')"></div>
+                    <span>Python</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"  style="background-image: url('images/pandas.png')" ></div>
+                    <span>Pandas</span>
+                </div>
+                                <div class="skill-item">
+                    <div class="skill-icon"  style="background-image: url('images/numpy.svg')"></div>
+                    <span>Numpy</span>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon" style="background-image: url('images/tensorflow.png')"> </div>
+                    <span>TensorFlow</span>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon"  style="background-image: url('images/seaborn.svg')"></div>
+                    <span>Seaborn</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"  style="background-image: url('images/plotly.png')"></div>
+                    <span>Plotly</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"  style="background-image: url('images/Streamlit.png')"></div>
+                    <span>Streamlit</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"  style="background-image: url('images/Sql.png')"></div>
+                    <span>SQL</span>
+                </div>
+                   <div class="skill-item">
+                    <div class="skill-icon"  style="background-image: url('images/Powerbi.png')"></div>
+                    <span>Power BI</span>
+                </div>
+                   <div class="skill-item">
+                    <div class="skill-icon"  style="background-image: url('images/Tableau.png')"></div>
+                    <span>Tableau</span>
+                </div>
+
+                   <div class="skill-item">
+                    <div class="skill-icon"  style="background-image: url('images/excel.png')"></div>
+                    <span>Excel</span>
+                </div>
+                   <div class="skill-item">
+                    <div class="skill-icon"  style="background-image: url('images/Azure.png')"></div>
+                    <span>Azure</span>
+                </div>
+                   <div class="skill-item">
+                    <div class="skill-icon"  style="background-image: url('images/Databricks.png')"></div>
+                    <span>Databricks</span>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon"  style="background-image: url('images/docker.webp')"></div>
+                    <span>Docker</span>
+                </div>
+            </div>
+            <div class="skills-description">
+                <!-- <h3>Technical Proficiency</h3> -->
+                <p>Below, you’ll find a curated overview of my primary skills and the tools I master daily. I’ve paired these with project summaries to give you a clear look at my creative process and the real-world applications of my expertise.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Featured Projects</h2>
+        
+        <!-- Filter Buttons -->
+        <div class="filter-container">
+            <button class="filter-btn reset" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="data-analysis-visualization">Data Analysis & Visualization</button>
+            <button class="filter-btn" data-filter="data-science">Data Science</button>
+            <button class="filter-btn" data-filter="sql">SQL</button>
+            <button class="filter-btn" data-filter="data-engineering">Data Engineering</button>
+            <button class="filter-btn" data-filter="machine-learning">Machine Learning</button>
+        </div>
+
+        <div class="projects-grid">
+           
+            <div class="project-card" data-tags="data-science">
+                <div class="project-image"  style="background-image: url('covers/profile_D.png'); "></div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="project-tag">Python - NLP</span>
+                        <span class="project-tag">Data Analysis</span>
+                        <span class="project-tag">Sentimental Analysis</span>
+                        <span class="project-tag">Machine Learning</span>
+                        <span class="project-tag">Hugging Transformers</span>
+                        <span class="project-tag">Streamlit - Data Visualization</span>
+                    </div>
+                    <h3>PROJECT 1</h3>
+                    <p>
+                        This project focused on uncovering hidden patterns within [Insert Industry, e.g., urban mobility or consumer behavior] data using exploratory data analysis and statistical modeling. Leveraging R and SQL, I synthesized over 50,000 data points to identify key variables that drive [Insert Result]. My findings provide a data-backed framework for optimizing [Insert Process] and improving strategic decision-making.</p>
+                       
+                    </p>
+                    <a href="https://github.com" target="_blank" class="read-more">View Project</a>
+                </div>
+            </div>
+
+
+            <div class="project-card" data-tags="data-analysis-visualization">
+                <div class="project-image" style="background-image: url('covers/profile_D.png')"></div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Power BI</span>
+                        <span class="project-tag">STMP Automation</span>
+                        <span class="project-tag">Data Analysis</span>
+                        <span class="project-tag">Data Visualization</span>
+                    </div>
+                    <h3>PROJECT 2</h3>
+                    <p>This project focused on uncovering hidden patterns within [Insert Industry, e.g., urban mobility or consumer behavior] data using exploratory data analysis and statistical modeling. Leveraging R and SQL, I synthesized over 50,000 data points to identify key variables that drive [Insert Result]. My findings provide a data-backed framework for optimizing [Insert Process] and improving strategic decision-making.</p>
+
+                    <a href="https://github.com" target="_blank" class="read-more">View Project</a>
+                </div>
+            </div>
+
+
+            <div class="project-card" data-tags="data-analysis-visualization">
+                <div class="project-image" style="background-image: url('covers/profile_D.png')"></div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="project-tag">Data Visualization</span>
+                        <span class="project-tag">Power BI</span>
+                        <span class="project-tag">Dashboard</span>
+                    </div>
+                    <h3>PROJECT 3</h3>
+                    <p>This project focused on uncovering hidden patterns within [Insert Industry, e.g., urban mobility or consumer behavior] data using exploratory data analysis and statistical modeling. Leveraging R and SQL, I synthesized over 50,000 data points to identify key variables that drive [Insert Result]. My findings provide a data-backed framework for optimizing [Insert Process] and improving strategic decision-making.</p>
+
+                    <a href="https://github.com" target="_blank" class="read-more">View Project</a>
+                </div>
+            </div>
+
+
+            <div class="project-card" data-tags="machine-learning">
+                <div class="project-image" style="background-image: url('covers/profile_D.png')"></div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="project-tag">DL - Neural Network</span>
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Sensor Data Collection</span>
+                        <span class="project-tag">Data Science</span>
+                        <span class="project-tag">Model Optimization</span>
+                    </div>
+                    <h3>PROJECT 4</h3>
+                    <p>This project focused on uncovering hidden patterns within [Insert Industry, e.g., urban mobility or consumer behavior] data using exploratory data analysis and statistical modeling. Leveraging R and SQL, I synthesized over 50,000 data points to identify key variables that drive [Insert Result]. My findings provide a data-backed framework for optimizing [Insert Process] and improving strategic decision-making.</p>
+                    <a href="https://github.com" target="_blank" class="read-more">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-tags="machine-learning,data-science" style="display: none;">
+                <div class="project-image" style="background-image: url('covers/profile_D.png')"></div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="project-tag">Machine Learning</span>
+                        <span class="project-tag">Data Science</span>
+                        <span class="project-tag">Azure & MLOps</span>
+                    </div>
+                    <h3>PROJECT 5</h3>
+                    <p>This project focused on uncovering hidden patterns within [Insert Industry, e.g., urban mobility or consumer behavior] data using exploratory data analysis and statistical modeling. Leveraging R and SQL, I synthesized over 50,000 data points to identify key variables that drive [Insert Result]. My findings provide a data-backed framework for optimizing [Insert Process] and improving strategic decision-making.</p>
+                    <a href="https://github.com" target="_blank" class="read-more">View Project</a>
+                </div>
+            </div>
+
+
+            <div class="project-card" data-tags="data-engineering">
+                <div class="project-image" style="background-image: url('covers/profile_D.png')"> </div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="project-tag">Data Engineering</span>
+                        <span class="project-tag">Azure (ADF, ADLS Gen 2 Storage)</span>
+                        <span class="project-tag">Azure Databricks</span>
+                        <span class="project-tag">Unity Catalog</span>
+                        <span class="project-tag">Schema (Fact & Dimension) Tables</span>
+                        <span class="project-tag">Medallion Architecture</span>
+                    </div>
+                    <h3>PROJECT 6</h3>
+                    <p>This project focused on uncovering hidden patterns within [Insert Industry, e.g., urban mobility or consumer behavior] data using exploratory data analysis and statistical modeling. Leveraging R and SQL, I synthesized over 50,000 data points to identify key variables that drive [Insert Result]. My findings provide a data-backed framework for optimizing [Insert Process] and improving strategic decision-making.</p>
+                    <a href="https://github.com" target="_blank" class="read-more">View Project</a>
+                </div>
+            </div>
+            <div class="project-card" data-tags="data-analysis-visualization">
+                <div class="project-image" style="background-image: url('covers/profile_D.png')"></div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="project-tag">Data Visualization</span>
+                        <span class="project-tag">Power BI</span>
+                        <span class="project-tag">Data Analysis</span>
+                        <span class="project-tag">Dashboard</span>
+                    </div>
+                    <h3>PROJECT 7</h3>
+                    <p>This project focused on uncovering hidden patterns within [Insert Industry, e.g., urban mobility or consumer behavior] data using exploratory data analysis and statistical modeling. Leveraging R and SQL, I synthesized over 50,000 data points to identify key variables that drive [Insert Result]. My findings provide a data-backed framework for optimizing [Insert Process] and improving strategic decision-making.</p>
+                    <a href="https://github.com" target="_blank" class="read-more">View Project</a>
+                </div>
+            </div>
+
+
+                    <div class="project-card" data-tags="data-analysis-visualization, sql">
+                <div class="project-image" style="background-image: url('covers/profile_D.png')"></div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="project-tag">Data Visualization</span>
+                        <span class="project-tag">Power BI</span>
+                        <span class="project-tag">SQL</span>
+                        <span class="project-tag">Data Analysis</span>
+                        <span class="project-tag">Dashboard</span>
+                    </div>
+                    <h3>PROJECT 8</h3>
+                    <p>This project focused on uncovering hidden patterns within [Insert Industry, e.g., urban mobility or consumer behavior] data using exploratory data analysis and statistical modeling. Leveraging R and SQL, I synthesized over 50,000 data points to identify key variables that drive [Insert Result]. My findings provide a data-backed framework for optimizing [Insert Process] and improving strategic decision-making.</p>
+                    <a href="https://github.com" target="_blank" class="read-more">View Project</a>
+                </div>
+            </div>
+
+
+                        <div class="project-card" data-tags="data-science">
+                <div class="project-image" style="background-image: url('covers/profile_D.png')"></div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="project-tag">Data Science</span>
+                        <span class="project-tag">Exploratory Data Analysis</span>
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Model Training</span>
+                    </div>
+                    <h3>PROJECT 9</h3>
+                    <p>This project focused on uncovering hidden patterns within [Insert Industry, e.g., urban mobility or consumer behavior] data using exploratory data analysis and statistical modeling. Leveraging R and SQL, I synthesized over 50,000 data points to identify key variables that drive [Insert Result]. My findings provide a data-backed framework for optimizing [Insert Process] and improving strategic decision-making.</p>
+                    <a href="https://github.com" target="_blank" class="read-more">View Project</a>
+                </div>
+            </div>
+
+<div class="project-card" data-tags="data-science">
+                <div class="project-image" style="background-image: url('covers/profile_D.png')"></div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="project-tag">Data Science</span>
+                        <span class="project-tag">Exploratory Data Analysis</span>
+                        <span class="project-tag">ML- Clustering Techniques</span>
+                        <span class="project-tag">Segmentation</span>
+                    </div>
+                    <h3>PROJECT 10</h3>
+                    <p>This project focused on uncovering hidden patterns within [Insert Industry, e.g., urban mobility or consumer behavior] data using exploratory data analysis and statistical modeling. Leveraging R and SQL, I synthesized over 50,000 data points to identify key variables that drive [Insert Result]. My findings provide a data-backed framework for optimizing [Insert Process] and improving strategic decision-making.</p>
+                    <a href="https://github.com/aishincp" target="_blank" class="read-more">View Project</a>
+                </div>
+            </div>
+
+
+                            <div class="project-card" data-tags="data-analysis-visualization">
+                <div class="project-image" style="background-image: url('covers/profile_D.png')"></div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="project-tag">Data Visualization</span>
+                        <span class="project-tag">Tableau</span>
+                        <span class="project-tag">Dashboard</span>
+                    </div>
+                    <h3>PROJECT 11</h3>
+                    <p>This project focused on uncovering hidden patterns within [Insert Industry, e.g., urban mobility or consumer behavior] data using exploratory data analysis and statistical modeling. Leveraging R and SQL, I synthesized over 50,000 data points to identify key variables that drive [Insert Result]. My findings provide a data-backed framework for optimizing [Insert Process] and improving strategic decision-making.</p>
+                    <a href="https://github.com" target="_blank" class="read-more">View Project</a>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <footer> Portfolio |  2026
+
+           <div class="social-links">
+    <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Logo" />
+    </a>
+    <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn Logo" />
+    </a>
+  </div>
+    </footer>
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Header background change on scroll
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 100) {
+            //    header.style.background = 'rgba(255, 255, 255, 0.98)';
+            } else {
+              //  header.style.background = 'rgba(255, 255, 255, 0.95)';
+            }
+        });
+
+        // Add active class to navigation links based on scroll position
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-links a');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').substring(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Mobile menu toggle (basic implementation)
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Add some interactive effects
+        document.querySelectorAll('.skill-item').forEach(item => {
+            item.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-10px) scale(1.05)';
+            });
+            
+            item.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+
+        // Project filtering functionality
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                
+                // Add active class to clicked button
+                button.classList.add('active');
+                
+                const filterValue = button.getAttribute('data-filter');
+                
+                // Add fade out effect
+                projectCards.forEach(card => {
+                    card.style.opacity = '0';
+                    card.style.transform = 'scale(0.9)';
+                });
+                
+                // After fade out, filter and fade in
+                setTimeout(() => {
+                    projectCards.forEach(card => {
+                        if (filterValue === 'all') {
+                            // Show all projects
+                            card.classList.remove('hidden');
+                        } else {
+                            // Check if project has the selected tag
+                            const projectTags = card.getAttribute('data-tags');
+                            if (projectTags && projectTags.includes(filterValue)) {
+                                card.classList.remove('hidden');
+                            } else {
+                                card.classList.add('hidden');
+                            }
+                        }
+                    });
+                    
+                    // Fade in visible projects
+                    setTimeout(() => {
+                        projectCards.forEach(card => {
+                            if (!card.classList.contains('hidden')) {
+                                card.style.opacity = '1';
+                                card.style.transform = 'scale(1)';
+                            }
+                        });
+                    }, 50);
+                }, 150);
+            });
+        });
+
+        // Set "All Projects" as active by default
+        document.querySelector('.filter-btn[data-filter="all"]').classList.add('active');
+    </script>
+</body>
+</html>
